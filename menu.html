@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lemonade">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu - RestaurantMS</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- DaisyUI with Tailwind CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="flex flex-col min-h-screen poetsen-one-regular">
+        <header class="bg-primary text-white py-4 m-4 rounded-xl">
+            <nav class="container mx-auto flex justify-center">
+                <ul class="flex space-x-4">
+                    <li>
+                        <a href="index.html" class="hover:text-black">Home</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" class="hover:text-black">Menu</a>
+                    </li>
+                    <li>
+                        <a href="reservations.html" class="hover:text-black"
+                            >Reservations</a
+                        >
+                    </li>
+                    <li>
+                        <a href="contact.html" class="hover:text-black"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flex-grow container mx-auto p-4">
+            <section class="my-8">
+                <h1 class="text-4xl font-bold text-center">Our Menu</h1>
+
+                <div class="mt-8">
+                    <h2 class="text-2xl font-semibold">Appetizers</h2>
+                    <div
+                        class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/appetizers_01.jpg"
+                                alt="Appetizer Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Delicious Chona
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Porro, modi.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/appetizers_02.jpg"
+                                alt="Appetizer Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Chicken Salad
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Chicken parmesan caesar salad with lettuce,
+                                    cherry tomatoes inside a white bowl, served
+                                    with sauce and bread.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/appetizers_03.jpg"
+                                alt="Appetizer Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Mixed Salad
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Sadj in iron pot with various salads.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h2 class="text-2xl font-semibold">Main Course</h2>
+                    <div
+                        class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/main_course_01.jpg"
+                                alt="Main Course Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Signature Food Composition
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Porro, modi.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/main_course_02.jpg"
+                                alt="Main Course Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Steak and Potatoes
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Porro, modi.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/main_course_03.jpg"
+                                alt="Main Course Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Mixed Fried Meat
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Mixed fried meat with pomegranate and sauce.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h2 class="text-2xl font-semibold">Desserts</h2>
+                    <div
+                        class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/desserts_01.jpg"
+                                alt="Dessert Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Choco Blast
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Layered fruit dessert with whipped cream and
+                                    chocolate syrup on a plate.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/desserts_02.jpg"
+                                alt="Dessert Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Chocolate with Marshmallows
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Porro, modi.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white shadow-lg rounded-lg overflow-hidden"
+                        >
+                            <img
+                                src="assets/desserts_03.jpg"
+                                alt="Dessert Image"
+                                class="w-full h-96 object-cover"
+                            />
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold">
+                                    Pancakes Tower
+                                </h3>
+                                <p class="mt-1 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Porro, modi.
+                                </p>
+                                <p class="mt-1 text-gray-900 font-bold">
+                                    $10.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-primary text-white text-center py-4">
+            <p>&copy; 2024 Recipe Management System</p>
+        </footer>
+    </body>
+</html>
